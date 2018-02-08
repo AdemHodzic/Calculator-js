@@ -1,8 +1,14 @@
+@font-face{
+	font-family: bitwise;
+	src: url('./fonts/bitwise.ttf');
+}
+
 html,
 body{
 	width: 100%;
 	color:#fff;
 	background-color: #333;
+	font-family: bitwise, serif;
 }
 
 .result{
@@ -15,7 +21,7 @@ body{
 .container{
 	background-color: #555;
 	margin-top: 16rem;
-	width: 14rem;
+	width: 30rem;
 }
 
 .col-sm-3 button{
@@ -23,13 +29,20 @@ body{
 	margin: 0.5rem;
 }
 
-.number,.operator, .equals{
+.number,.operator{
 	background-color: inherit;
 	border: none;
 }
 
+.equals{
+	background-color: inherit;
+	border: none;
+	padding: 0;
+	margin:0;
+}
+
 .number:hover{
-	background-color: #fff;
+	background-color: #eaff35;
 	color:#000;
 	font-weight: bold;
 }
@@ -45,6 +58,20 @@ body{
 	color:#000;
 	font-weight: bold;
 }
+
+.col-sm-6 button{
+	background-color: #555;
+	color: #000;
+	border: none;
+	font-weight: bold;
+	text-align: center;
+	min-width: 100%;
+}
+
+.col-sm-6 button:hover{
+	background-color: #3f7bdb;
+}
+
 
 
 
