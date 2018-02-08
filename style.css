@@ -1,4 +1,50 @@
 html,
 body{
 	width: 100%;
+	color:#fff;
+	background-color: #333;
 }
+
+.result{
+	text-align: center;
+	background-color: #fff;
+	color:#000;
+	padding: 0;
+}
+
+.container{
+	background-color: #555;
+	margin-top: 16rem;
+	width: 14rem;
+}
+
+.col-sm-3 button{
+	min-width: 50%;
+	margin: 0.5rem;
+}
+
+.number,.operator, .equals{
+	background-color: inherit;
+	border: none;
+}
+
+.number:hover{
+	background-color: #fff;
+	color:#000;
+	font-weight: bold;
+}
+
+.operator:hover{
+	background-color: #42f477;
+	color:#000;
+	font-weight: bold;
+}
+
+.equals:hover{
+	background-color: #f44162;
+	color:#000;
+	font-weight: bold;
+}
+
+
+
