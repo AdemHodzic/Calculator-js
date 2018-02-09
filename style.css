@@ -32,6 +32,14 @@ a:hover,a:visited{
 	z-index: 2;
 }
 
+.coffee{
+	position: absolute;
+	width: 10rem;
+	top: 10rem;
+	left: 70rem;
+	filter: grayscale(50%);
+}
+
 .paper{
 	filter: grayscale(100%);
 	position: absolute;
