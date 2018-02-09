@@ -52,7 +52,7 @@ $(function(){
 	})
 
 	undo.on('click',function(){
-		if(input.charAt(input.length-1).match(/(\+|\/|\-|\*)/g)){ //Checks if last char in input is operation. Then we just return to previous console input
+		if(finalResult.text().charAt(input.length-1).match(/(\+|\/|\-|\*)/g)){ //Checks if last char in input is operation. Then we just return to previous console input
 			finalResult.text(eval(input.slice(0,input.length-1)));
 		}else{
 			input = input.slice(0,input.length-1);  //We take away last element

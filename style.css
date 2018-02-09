@@ -11,17 +11,61 @@ body{
 	font-family: bitwise, serif;
 }
 
+a{
+	color:#2fa83b;
+	font-style: none;
+}
+
+a:hover,a:visited{
+	color:#2fa83b;
+	font-style: none;
+	text-decoration:none; 
+}
+
+.pencil{
+	position: absolute;
+	width: 5rem;
+	top: 15rem;
+	left:7.75rem;
+	transform: rotate(125deg);
+	filter: grayscale(67.5%);
+	z-index: 2;
+}
+
+.paper{
+	filter: grayscale(100%);
+	position: absolute;
+	z-index: 1;
+	width: 10rem;
+	left: 1.875rem;
+	height: 17.5rem;
+}
+
+.fcc{
+	display: inline;
+	color:#2fa83b;
+}
+
+.calcText{
+	text-align: center;
+}
+
 .result{
 	text-align: center;
 	background-color: #fff;
 	color:#000;
 	padding: 0;
+	margin-bottom: 2rem;
+	margin-top: 0;
 }
 
 .container{
+	box-shadow: 5px 10px 18px #444;
 	background-color: #555;
 	margin-top: 16rem;
 	width: 30rem;
+	margin-bottom: 2rem;
+	box-shadow: 
 }
 
 .col-sm-3 button{
